@@ -1,0 +1,82 @@
+body {
+
+    background-color: black;
+    
+    background-image: url(https://i.pinimg.com/564x/bb/12/82/bb128255054e6e2eec4d54e53c816f9a.jpg);
+    background-repeat:repeat;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:yellow
+}
+/* @keyframes ww {
+    0% { background-color: aqua;}
+    25% { background-color: blue;}
+    50% { background-color:darkorange;}
+    100% { background-color:black;}
+} */
+
+@keyframes ww {
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:blueviolet; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:600px;}
+  75%  {background-color:green; left:0px; top:600px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+    
+
+
+.uu1 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 50px;
+
+    color: aliceblue;
+    animation: ww 5s linear 2s infinite normal both;
+
+  
+}
+
+@keyframes ee {
+    from {background-color: blueviolet;}
+    to {background-color: maroon;}
+    
+}
+
+
+
+.t1 {
+    background-color:blueviolet;
+   padding-left: 200px;
+   margin-top: 50px;
+   animation: ee 3s linear 1s infinite normal both;
+
+}
+
+.m1  {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color:lightskyblue;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.m1 a:hover {
+   background-color:deeppink;
+
+
+}
+
+.m1 a{
+    text-decoration: none;
+    color:plum
+    
+
+}

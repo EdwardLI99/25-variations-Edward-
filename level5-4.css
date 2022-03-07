@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    font-family:Akronim ;
+    font-size: 40px;
+    
+    background-color:black;
+}
+
+
+
+h1 {
+    color: aquamarine;
+    position: relative;
+    animation: ww 5s linear 1s infinite normal both;
+}
+
+@keyframes ww {
+    0% {
+        left:100px;
+    }
+    25% {
+        left:100px;
+        top:50px;
+    }
+    50% {
+        left:100px;
+        bottom: 50px;
+    }
+    100% {
+        left: 100px;
+    }
+}
+
+.f1 {
+    position: relative;
+    color: blue;
+    animation: we 3s linear 1s infinite normal both;
+}
+
+
+@keyframes we {
+    0% { left:300px;
+    }
+    25% { left:300px;
+        top:20px;}
+        50% {
+            left :300px;
+            bottom: 50px;
+        }
+        100% {
+            left:300px;
+
+        }
+}
+
+.p1 {
+    position: relative;
+    animation: sy 5s linear 1s infinite normal both;
+    color: crimson;
+}
+
+@keyframes sy {
+    0% {right: 0px;}
+    25% {right: 100px;}
+    50%{right: 300px;}
+    100% {right: 500px;}
+}
+
+
+.q1 {
+    position: relative;
+    animation: sq 5s linear 1s infinite normal both;
+    color: indianred;
+}
+
+@keyframes sq {
+    0% {left: 0px ;}
+    25% {
+        left:200px;
+        
+    }
+    50% {
+        left :400px;
+        
+    }
+    100% {
+        left: 600px;
+    }
+}
+
+.m1  {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color:lightskyblue;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.m1 a:hover {
+   background-color:deeppink;
+
+
+}
+
+.m1 a{
+    text-decoration: none;
+    color:plum
+    
+
+}

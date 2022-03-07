@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5px;
+    
+}
+
+h1 {
+    color:white
+}
+
+small {
+    margin-left: 400px;
+    color: blueviolet;
+}
+
+.q1 {
+    color:brown
+
+}
+
+.q2 {
+    color : gold
+}
+
+.q3 {
+    color : grey
+}
+
+.q4 {
+    color : red
+}
+
+.q5 {
+    color : olive
+}
+
+.q6 {
+    color: orangered
+}
+
+.q7 {
+    color: purple
+}
+
+.q8 {
+    color:blue
+}
+
+.m1  {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color:lightskyblue;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.m1 a:hover {
+   background-color:deeppink;
+
+
+}
+
+.m1 a{
+    text-decoration: none;
+    color:plum
+    
+
+}

@@ -1,0 +1,79 @@
+body {
+    background-color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: azure;
+    background-color: black;
+}
+
+.y0 {
+    text-align: center;
+    font-size: 10px;
+}
+
+.y1 {
+    text-align: left;
+    background-color: aqua;
+}
+
+.y2 {
+    text-align: center;
+    background-color:mediumseagreen
+}
+
+.y3 {
+    text-align: right;
+    background-color:mediumslateblue
+}
+
+.y4 {
+    text-align: center;
+    background-color:violet
+}
+.y5{
+    background-color: lightcoral;
+}
+.y6 {
+    text-align: center;
+    background-color: yellow;
+}
+
+.y7 {
+    text-align: right;
+    background-color: cornflowerblue;
+}
+
+.y8 {
+    text-align: center;
+    background-color:teal;
+}
+
+.m1  {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color:lightskyblue;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.m1 a:hover {
+   background-color:deeppink;
+
+
+}
+
+.m1 a{
+    text-decoration: none;
+    color:plum
+    
+
+}

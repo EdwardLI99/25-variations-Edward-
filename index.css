@@ -1,0 +1,107 @@
+body {
+   font-family: Bungee;
+    color: black;
+    background-image: url(1.png), url(2.png),url(3.png),url(winter\ night.jpg);
+    /* background-repeat: no-repeat; */
+    
+    position: absolute;
+    animation: sn 20s linear 1s infinite; }
+
+    @keyframes sn {
+        0% { background-position: 0 0, 0 0, 0 0 ,0 0;}
+        100% {background-position: 500px 900px, 500px 400px, 200px 200px, 0 0 ;}
+    }
+
+
+
+
+a {
+    text-decoration: none;
+    display: block;
+}
+/* 
+.logo {
+    width: 150px;
+    height: 50px;
+    line-height: 80px;
+    background-color: aqua;
+    float: left;
+} */
+
+
+
+/* .header {
+height: 80px;
+width: auto;
+background-color:dimgray;
+margin: auto;
+}
+
+.nav ul li {
+    float: left;
+
+    
+}
+
+.nav ul li a {
+    display: block;
+    height: 70px ;
+    padding: 0 40px;
+    font-family:Bungee ;
+    font-size: 30px;
+    line-height: 80px;
+    color: white;
+    
+} */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    background-color:azure;
+    opacity: .8;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 3px;
+    
+    
+
+}
+
+a {
+    color :black
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid red;
+    color:red
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.q1 {
+    margin-top: 50px;
+    margin-left:70px;
+}
+
+.name {
+    font-family: Aclonica;
+    font-size: 150px;
+    color: azure;
+    text-align: right;
+    padding-top: 400px;
+    
+}

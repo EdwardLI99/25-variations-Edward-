@@ -1,0 +1,52 @@
+body {
+    
+    
+
+    background-image:radial-gradient(orange,violet,white);
+    text-align: center;
+    color:darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    border: 5px dashed black;
+}
+
+@keyframes ex{
+    from { background-color: white;}
+    to {background-color: black;}
+    
+}
+
+.t7 {
+    background-color: white;
+    animation: ex 5s linear 1s infinite normal both;
+
+
+}
+.m1  {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color:lightskyblue;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.m1 a:hover {
+   background-color:deeppink;
+
+
+}
+
+.m1 a{
+    text-decoration: none;
+    color:plum
+    
+
+}
+
