@@ -100,7 +100,7 @@ ul li:hover ul li {
 }
 
 .name {
-    font-family: Aclonica;
+    font-family: 'Aclonica', sans-serif;
     font-size: 150px;
     color: azure;
     text-align: right;
