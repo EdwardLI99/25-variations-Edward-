@@ -1,5 +1,7 @@
 body {
-   font-family: Bungee;
+   
+   font-family: url(Bungee-Regular.ttf);
+   
     color: black;
     background-image: url(1.png), url(2.png),url(3.png),url(winter\ night.jpg);
     /* background-repeat: no-repeat; */
